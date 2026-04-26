@@ -23,9 +23,9 @@ def print_blocks(encoded):
 
 def main():
     shift = int(sys.argv[1])
+    message = ""
     for line in sys.stdin:
-        message = line
-        break
+        message += line
     encoded = encode_message(message, shift)
     print_blocks(encoded)
 
