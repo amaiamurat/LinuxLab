@@ -128,4 +128,3 @@ This project provided practice with:
 ## Author
 
 Amaia M.
-```
